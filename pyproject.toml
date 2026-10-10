@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gnss-log-stats"
+version = "0.1.0"
+description = "Local-only descriptive statistics for GNSS CSV logs"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Spark" }]
+license = "AGPL-3.0-only"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/sparkainlp-x/gnss-log-stats"
+Repository = "https://github.com/sparkainlp-x/gnss-log-stats"
+Issues = "https://github.com/sparkainlp-x/gnss-log-stats/issues"
+
+[project.scripts]
+gnss-log-stats = "gnss_log_stats:main"
+
+[tool.setuptools]
+py-modules = ["gnss_log_stats"]

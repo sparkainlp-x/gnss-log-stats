@@ -1,0 +1,25 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.build/
+build/
+dist/
+.venv/
+venv/
+
+# Local tooling
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local GNSS/location data: force-add only intentionally reviewed synthetic fixtures
+*.csv
+*.gpx
+*.nmea
+*.ubx
+*.log
+
+# Pre-existing local archive
+gnss-log-stats.zip
