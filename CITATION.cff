@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+title: "GNSS Log Stats: local-only descriptive statistics for GNSS CSV logs"
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+repository-code: "https://github.com/sparkainlp-x/gnss-log-stats"
+url: "https://sparkainlpx.xyz"
+abstract: >-
+  GNSS Log Stats is a small, dependency-free Python command-line tool that
+  summarizes an approved GNSS CSV log as JSON: record count, UTC time span,
+  latitude/longitude ranges and means, optional altitude, speed, satellite-
+  count and HDOP summaries, and counts of recognized fix types. It streams the
+  CSV one record at a time, validates explicit-UTC timestamps, coordinate
+  ranges and numeric fields, rejects malformed rows, and never echoes
+  arbitrary input text or unrecognized fix labels in its output. It runs
+  locally and makes no network requests. Scope: descriptive statistics only.
+  It does not infer signal conditions, validate a receiver, or establish
+  physical evidence. GNSS logs can reveal sensitive location history; no real
+  logs are included, and the tests use in-memory sample data.
+keywords:
+  - research software
+  - GNSS
+  - CSV
+  - descriptive statistics
+  - privacy
+  - command-line tool
+  - Python
+  - New Brunswick
+license: AGPL-3.0-only
+version: "0.1.0"
+date-released: "2026-10-11"
