@@ -1,5 +1,6 @@
 # GNSS Log Stats
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23307945.svg)](https://doi.org/10.5281/zenodo.23307945)
 [![Tests](https://github.com/sparkainlp-x/gnss-log-stats/actions/workflows/tests.yml/badge.svg)](https://github.com/sparkainlp-x/gnss-log-stats/actions/workflows/tests.yml)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](https://www.gnu.org/licenses/agpl-3.0.html)
 
@@ -91,3 +92,7 @@ The GitHub Actions workflow runs the same suite across supported Python versions
 ## License
 
 This project is licensed under the **GNU Affero General Public License, version 3 only (AGPL-3.0-only)**. See [`LICENSE`](LICENSE) for the complete terms. The software is provided without warranty; refer to the license for details.
+
+## Cite
+
+Concept DOI (all versions): [10.5281/zenodo.23307945](https://doi.org/10.5281/zenodo.23307945). v0.1.0: [10.5281/zenodo.23307946](https://doi.org/10.5281/zenodo.23307946). See [CITATION.cff](CITATION.cff).
